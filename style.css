@@ -71,3 +71,32 @@ button:active{
 .operator:active{
     background-color: rgb(246, 168, 23);
 }
+
+/* 📱 Mobile screens */
+@media (max-width: 480px) {
+
+    h1{
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+    }
+
+    #calculator{
+        width: 95%;
+        padding: 8px;
+    }
+
+    #display{
+        height: 50px;
+        font-size: 1.5em;
+    }
+
+    #keys{
+        gap: 8px;
+    }
+
+    button{
+        width: 65px;
+        height: 65px;
+        font-size: 1.5em;
+    }
+}
